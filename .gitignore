@@ -62,6 +62,8 @@ buck-out/
 /ios/Pods/
 /vendor/bundle/
 
-windows/shutter.sln
-
 .vs
+windows/shutter.sln
+msbuild.binlog
+windows/shutter/AutolinkedNativeModules.g.cpp
+windows/shutter/AutolinkedNativeModules.g.targets
