@@ -25,8 +25,14 @@ const App: () => Node = () => {
   return (
     <NavigationContainer>
         <Stack.Navigator>
-              <Stack.Screen name="Login" component={LoginScreen} />
-              <Stack.Screen name="Cashier" component={CashierScreen} />
+              <Stack.Screen
+                  name="Login"
+                  component={LoginScreen}
+              />
+              <Stack.Screen
+                  name="Cashier"
+                  component={CashierScreen}
+              />
               <Stack.Screen name="CashOut" component={CashOutScreen} />
               <Stack.Screen name="Checkout" component={CheckoutScreen} />
               <Stack.Screen name="Config" component={ConfigScreen} />
