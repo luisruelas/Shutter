@@ -4,15 +4,22 @@ import {
 export default StyleSheet.create ({
     'form-control': {
         height: 40,
-        margin: 12,
         borderWidth: 1,
-        padding: 10,
-        width: '100%'
+        padding: 10
     },
     'btn': {
         alignItems: "center",
         backgroundColor: "#DDDDDD",
-        width: '100%',
+        padding: 10
+    },
+    'btn-primary': {
+        alignItems: "center",
+        backgroundColor: "blue",
+        padding: 10
+    },
+    'btn-danger': {
+        alignItems: "center",
+        backgroundColor: "red",
         padding: 10
     },
     'logo': {

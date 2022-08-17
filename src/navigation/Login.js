@@ -19,16 +19,16 @@ export default class Login extends React.Component {
             <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', margin: 100 }}>
                 <Image source={require('../images/common/logo.png')} />
                 <TextInput
-                    style={CommonStyleSheet['form-control']}
+                    style={{ width: "100%", ...CommonStyleSheet['form-control']}}
                     placeholder="User"
                 />
                 <TextInput
-                    style={CommonStyleSheet['form-control']}
+                    style={{ width: "100%", ...CommonStyleSheet['form-control'] }}
                     placeholder="Password"
                 />
                 <TouchableOpacity
                     onPress={() => this.navigateTo('Cashier')}
-                    style={CommonStyleSheet.btn}
+                    style={{ width: "100%", ...CommonStyleSheet.btn }}
                 >
                     <Text>Login</Text>
                 </TouchableOpacity>
